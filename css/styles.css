@@ -1,0 +1,160 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+font-family: Gilroy;
+}
+
+body {
+    /* height: 100%;
+    width: 100%; */ /* esto me origina scroll en el pie de pagina*/
+    background-color: rgb(175, 98, 128);
+    margin: 20px;
+    padding: 10px;
+}
+
+/*---------------modelo de Menu nuevo -------------------*/
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+
+}
+#navegador {
+height: 90px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+/* border-style: double; */
+border: 2px solid;
+border-color: rgb(181, 7, 125);
+}
+
+#navegador img {
+    height: 70px;
+    margin-right: 30px;
+
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-left li{
+    margin-right: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-right li{
+    margin-right: 60px;
+    font-size: 20px;
+    
+    font-weight: 600;
+}
+
+/*---------------hasta aqui el menú n uevo --------------*/
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+.foto{
+    border-radius: 35%;
+    width: 120px;
+    height: 180px;
+   
+}
+
+.name{
+    font-size: 80px !important;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(55, 5, 59);
+    margin-left: 20px;
+
+}
+
+#cuerpo{
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(182, 73, 222);
+    font-weight: 300;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    font-size: 40px;
+    color: rgb(73, 73, 109);
+}
+
+.subtitulo{
+    font-size: 35px;
+    padding-left: 30px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(73, 73, 109);
+}
+p, ol, ul{
+    margin: 30px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    text-align: justify;
+    color: rgb(24, 9, 38);
+}
+
+
+/*------------ Pie de Página ---------------------*/
+#footer {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    }
+
+.derechos h4{
+ font-size: 20px;
+}
+
+.logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    
+    }
+    
+.logos li{
+        margin-right: 30px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+
+
+
